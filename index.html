@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="icon" href="pfp.jpg" type="image/x-icon" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#journals">Journals</a>
+            <a href="#form">Create New Entry</a>
+        </nav>
+        <h1>Dhanvi's <span>Journal</span></h1>
+        <h2>I'm the real dababy yeah yeah!</h2>
+        <h3>Welcome to my life story</h3>
+
+        <figure>
+            <img src="pfp.jpg" alt="Dhanvi Desu">
+            <figcaption> <em>Me!</em> </figcaption>
+        </figure>
+
+        <hr>
+    </header>
+
+    <main>
+        <section id="journals">
+            <section>
+                <p>April 9: <i>Today</i> I found out I am the <strong>real</strong> DaBaby!</p>
+                <br>
+                <ol>
+                    <li><b>let's goooo!</b></li>
+                    <li>Yeah Yeah!</li>
+                    <li><a href="https://youtu.be/XCQJp4DQob8">let's goo!</a></li>
+                </ol>
+            </section>
+
+            <section>
+                <p>April 10: Today I decided to go to a <em>fake</em> dababy concert!</p>
+                <br>
+                <video width="400" controls>
+                    <source src="oaky.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                  </video>
+
+            </section>
+            <section>
+                <p>April 11: Today I asked my friend if he wants to get ice cream!</p>
+
+                <audio controls>
+                    <source src="yeah.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <details>
+                    <summary>That is my friends voice</summary>
+                    <p>He is fun to be with!</p>
+                </details>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div id="form">
+            <form>
+                <fieldset>
+                    <input type="checkbox" value="Long Entry" name="category" id="long">
+                    <label for="long">Long Entry</label>
+                    <br><br>
+
+                    <label for="summary">Summary:</label>
+                    <input type="text" name="summary" id="summary"><br><br>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date"><br><br>
+
+
+                    <label>Time of Day:</label><br>
+                    <input type="radio" value="am" name="radio" id="am">
+                    <label for="am">AM</label>
+                    <br>
+                    <input type="radio" value="pm" name="radio" id="pm">
+                    <label for="pm">PM</label>
+                    <br>
+                    <br>
+
+                    <label for="month">Month:</label>
+                    <input list="Month" name="month" id="month">
+                    <datalist id="Month">
+                        <option value="Jan">
+                        <option value="Feb">
+                        <option value="Mar">
+                    </datalist>
+                    <br>
+                    <br>
+                    <label>Day</label>
+                    <select>
+                        <option value="none">Sunday</option>
+                        <option value="none">Monday</option>
+                        <option value="none">Tuesday</option>
+                        <option value="none">Wednesday</option>
+                        <option value="none">Thursday</option>
+                        <option value="none">Friday</option>
+                        <option value="none">Saturday</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label>Description of entry</label>
+                    <textarea rows="2" cols="30"></textarea>
+                    <br>
+                    <br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
+
+</body>
+
+</html>
