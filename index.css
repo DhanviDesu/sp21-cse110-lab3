@@ -1,0 +1,124 @@
+/* Formatting Entire Body and Bakcground */
+
+
+/* Universal selector */
+
+* {
+    height: auto;
+}
+
+
+/* body settings */
+
+body {
+    background-color: antiquewhite;
+    color: #000;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* creating header */
+
+header {
+    background-color: rgb(202, 132, 132);
+    color: hsl(1, 2, 3);
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+
+/* navbar */
+
+nav {
+    height: 2%;
+    width: 500px;
+    position: sticky;
+}
+
+
+/* pfp */
+
+header figure img {
+    height: 20em;
+    width: 15rem;
+    padding: 2px 2px 2px 2px;
+}
+
+
+/* pfp responsive */
+
+@media only screen and (max-width: 600px) {
+    header figure img {
+        height: 10em;
+        width: 7rem;
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+
+/* journal formatting */
+
+main #journals section ol li {
+    margin: 5pt 1pc 5pt 1pc;
+}
+
+main #journals section video {
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    margin-left: 2pc;
+    margin-right: 2pc;
+    height: 10%;
+    width: 10%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+main #journals section audio {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.entry p {
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+
+main #journals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: inherit;
+}
+
+details p {
+    display: none;
+}
+
+main,
+footer {
+    background-color: rgb(144, 112, 73);
+}
+
+footer #form:hover {
+    background-color: rgb(168, 127, 46);
+}
+
+footer #form:active {
+    background-color: rgb(50, 48, 44);
+}
+
+input[name="summary"] {
+    background-color: blue;
+}
