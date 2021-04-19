@@ -65,7 +65,7 @@ header figure img {
 
 /* journal formatting */
 
-main #journals section ol li {
+main #journals section ol>li {
     margin: 5pt 1pc 5pt 1pc;
 }
 
@@ -88,11 +88,19 @@ main #journals section audio {
     padding-right: 5px;
 }
 
-.entry p {
+section.entry p {
     color: #000;
     text-decoration: underline;
     text-align: center;
     position: relative;
+}
+
+input~label {
+    color: white;
+}
+
+audio+details {
+    color: white;
 }
 
 main #journals {
